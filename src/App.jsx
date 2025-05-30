@@ -1,8 +1,8 @@
 import "./App.css";
-import RocketDab from "./assets/Rocketdab.png";
-import RocketMan from "./assets/Rocketman.png";
-import RocketRide from "./assets/Rocketride.png";
-import RocketLaunch from "./assets/Rocketlaunch.png";
+import RocketDab from "./assets/rocketdab.png";
+import RocketMan from "./assets/rocketman.png";
+import RocketRide from "./assets/rocketride.png";
+import RocketLaunch from "./assets/rocketlaunch.png";
 import { useState } from "react";
 
 function App() {
