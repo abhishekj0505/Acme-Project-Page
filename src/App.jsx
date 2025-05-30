@@ -1,5 +1,5 @@
 import "./App.css";
-import RocketDab from "./assets/RocketDab.png";
+import RocketDab from "./assets/Rocketdab.png";
 import RocketMan from "./assets/Rocketman.png";
 import RocketRide from "./assets/Rocketride.png";
 import RocketLaunch from "./assets/Rocketlaunch.png";
@@ -19,7 +19,9 @@ function App() {
             <button
               id="hamburger-button"
               className="text-3xl md:hidden focus:outline-none"
-              onClick={()=>{setIsMobileMenuOn(true)}}
+              onClick={() => {
+                setIsMobileMenuOn(true);
+              }}
             >
               &#9776;
             </button>
@@ -50,8 +52,8 @@ function App() {
           <nav
             className="flex flex-col min-h-screen items-center py-8"
             aria-label="mobile"
-            onClick={()=>{
-              setIsMobileMenuOn(false)
+            onClick={() => {
+              setIsMobileMenuOn(false);
             }}
           >
             <a
